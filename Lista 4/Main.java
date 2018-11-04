@@ -221,12 +221,11 @@ public class Main {
 		}
 		
 		for(ArrayList<KeyPart> k : key){
-			int size=k.size();
-			for(int i=0; i<size; i++){
+			for(int i=0; i<k.size(); i++){
 				KeyPart p=k.get(i);
-				if(p.getScore()<0&&k.size()>1){
+				if((p.getScore()<0)&&k.size()>1){
 					k.remove(p);
-					size--;
+					i--;
 				}
 					
 			}
@@ -241,12 +240,12 @@ public class Main {
 			});
 		}
 		
-		//for(int i=0; i<ciphertext.size();i++){
-			for(int j=0; j<ciphertext.get(20).length; j++){
-				System.out.print((char) (Integer.parseInt(key.get(j).get(0).toString(),2)^Integer.parseInt(ciphertext.get(20)[j],2)));
+		for(int i=0; i<ciphertext.size();i++){
+			for(int j=0; j<ciphertext.get(i).length; j++){
+				System.out.print((char) (Integer.parseInt(key.get(j).get(0).toString(),2)^Integer.parseInt(ciphertext.get(i)[j],2)));
 			}
-		//	System.out.println();
-		//}
+			System.out.println();
+		}
 	}
 
 }
