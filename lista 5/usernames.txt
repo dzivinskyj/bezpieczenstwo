@@ -1,0 +1,16 @@
+lsd=AVouNMD3
+email=mylogin
+pass=mypassword
+timezone=-60
+lgndim=eyJ3IjoxMzY2LCJoIjo3NjgsImF3IjoxMzY2LCJhaCI6NzI4LCJjIjoyNH0=
+lgnrnd=090119_M1Xo
+lgnjs=1542474158
+ab_test_data=PAAAvvPPff/AAAPAPAAAAAPAAPAPAAAAAPAAAAPAH//fPHXAAAMAAB
+locale=pl_PL
+next=https://www.facebook.com/
+login_source=login_bluebar
+prefill_contact_point=
+prefill_source=
+prefill_type=
+skstamp=eyJyb3VuZHMiOjUsInNlZWQiOiI2ZGM1OTM1NTFkYjk2YjliYzc5Mzc5MzdmNjlhNTYyMSIsInNlZWQyIjoiZTQxNjAwYjk3Yjk5MzliMjhiZmEwOGU1ZDM1ODIxNTUiLCJoYXNoIjoiNWI1ZTZlNzg5YTBiZWM2MDE2MjNhNTMwOWQ0ZjhhYzMiLCJoYXNoMiI6IjUyZDM1Yzc0MTY1NTFhYmJiNGYzMTc2Y2M3YTU4ZWM1IiwidGltZV90YWtlbiI6NDUwMDAsInN1cmZhY2UiOiJsb2dpbiJ9
+
